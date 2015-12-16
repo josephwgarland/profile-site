@@ -1,0 +1,453 @@
+
+@import url(https://fonts.googleapis.com/css?family=Orbitron|Quattrocento+Sans);
+
+
+/*============UNIVERSAL=================*/
+h1, h2, h3, h4{
+	font-family:'Orbitron' , cursive;
+}
+.row {
+    margin-right: 25px;
+    margin-left: -15px;
+}
+a:hover{
+	color:orange;
+}
+/*============UNIVERSAL=================*/
+
+/*NAVIGATION*/
+nav.navbar.navbar-default {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color:transparent;
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+    font-size:20px;
+    text-shadow:1px 1px 2px #000;
+    background-color: #660000;
+    font-family:'Quattrocento', cursive;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+    font-size: 32px;
+    text-shadow: 1px 1px 2px #000;
+    font-family:'Orbitron' , cursive;
+}
+	
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: 20px;
+    color: #FFF;
+    font-family:'Quattrocento', cursive;
+}
+.navbar {
+    border: none;
+}
+
+/*===========NAVIGATION DROPDOWN MENU BELOW============*/
+
+.navbar-nav>li>.dropdown-menu {    
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color: #FFF;
+    background-color: transparent;
+    color: #FFF;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 18px;
+    text-align: right;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}                            
+.dropdown-menu>li>a {
+    display: inline;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #FFF;
+    text-shadow: 1px 1px 2px #000;
+    white-space: nowrap;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #FFF;
+    background-color: #660000;
+}
+
+/*===========NAVIGATION DROPDOWN MENU=================*/
+
+
+header{
+	height:350px;
+	background-color:#990000;
+	padding-top:180px;
+}
+	header h1{
+		color:#FFF;
+		font-size:4em;
+		text-shadow:1px 1px 3px #000;
+		font-family:'Orbitron' , cursive;
+}
+	}
+
+/*-----------------------------NAVIGATION END--------------------------------*/
+/*CUSTOM NAV*/
+.socialMobile{
+	padding-right:50px;
+}
+.socialIcon1, .socialIcon2, .socialIcon3{
+	font-size:50px;
+	color:#FFF;
+	position:relative;
+	left:-50%;
+}
+.socialIcon1{
+	margin-right:75px;
+}
+.socialIcon2{
+	margin-right:75px;
+}
+
+
+/*CUSTOM NAV*/
+
+
+
+h3.logoBack{
+	font-weight:700;
+    font-size:900px;
+    color: rgba(149, 147, 147, .2);
+    position:absolute;
+    z-index:-1;
+    margin-top:0px;
+    overflow:hidden;
+}
+#logoBack{
+	width:100%;
+	margin:0 auto;
+}
+
+
+/*..............CAROUSEL..............*/
+
+
+.carousel{
+	margin-bottom:60px;
+}
+.slide-one{
+	background-image: url(../img/city.jpg);
+}
+.slide-two{
+	background-image: url(../img/vintage.jpg);
+}
+.slide-three{
+	background-image: url(../img/tech.jpg);
+}
+.carousel-inner .item{
+	height:500px;
+	background-size:cover;
+	background-position: bottom;
+}
+
+
+.carousel-caption{
+    bottom:110px;
+}
+
+.carousel-caption h2{
+    color:#990000;
+    font-size:5em;
+    text-shadow:2px 2px 3px #FFF;
+    font-weight:600;
+}
+.headline{
+	position:relative;
+	top:-100px;
+}
+.cc{
+	color:#990000;
+}
+	.cc:hover{
+		color:#990000;
+	}
+
+/*end of carousel*/
+
+
+
+
+
+/*.............CAROUSEL............*/
+
+
+/*========================SERVICES SECTION BELOW============================*/
+
+.services{
+	clear:both;
+	display:inline-block;
+}
+
+div.jumbotron{
+	height:400px;
+	margin-top:60px;
+	color:transparent;
+	background-color:transparent;
+}
+.jumbotron2{
+	background-color:transparent;
+	height:400px;
+	color:transparent;
+}
+	.jumbotron h1{
+		color:#990000;
+		text-shadow:1px 1px 2px #000;
+		font-size:3.5em;
+		font-weight:600;
+		margin-bottom:30px;
+		margin-top:0px;
+	}
+	.jumbotron p{
+		color:#000;
+		font-size:20px;
+		font-weight:500;
+	}
+	.jumbotron h4{
+		color:#990000;
+		font-size:24px;
+		font-weight:600;
+	}
+/*///////////GLYPHICONS//////////*/
+	.gl{
+		font-size:6em;
+		color:#990000;
+		float:right;
+		text-shadow:1px 1px 2px #000;
+	}
+
+	.cpu{
+		margin-bottom:20px;
+		margin-top:20px;
+	}
+	.edit{
+		font-size:6em;
+		color:#990000;
+		margin-top:70px;
+		float:right;
+	}
+	#edit{
+		padding-left:0px;
+	}
+
+	span.glyphicon.glyphicon-hdd.gl {
+    margin-bottom: 15px;
+}
+/*///////////GLYPHICONS/////////////*/
+
+/*============SERVICE SECTION END====================*/
+
+/*)))))))))))))))INTRODUCTION((((((((((((((((*/
+
+.intro{
+	background-color:transparent;
+	padding:25px 10px 10px 10px;
+	margin-top:90px;
+	height:400px;
+	float:center;
+}
+	.intP{
+		background-color:transparent;
+		padding:15px 10px 10px 0px;
+		position:relative;
+		margin-top:95px;
+		height:400px;
+		float:center;
+		font-size:18px;
+		font-weight:500;
+	}
+	.intPara{
+		text-indent:30px;
+		text-shadow:0px 0px .5px #000;
+		color:#990000;
+	}
+	.intro h2{
+		text-align:center;
+		color:#990000;
+		margin-top:5px;
+	}
+
+	.intButton{
+		color:#990000;
+		text-decoration:none;
+		font-size:26px;
+		font-weight:700;
+		font-family:'Orbitron' , cursive;
+	}
+.self{
+	width:200px;
+	border-radius:15px;
+	margin:0 auto;
+
+}
+
+/*))))))))))))))INTRODUCTION((((((((((((((((((((*/
+
+
+
+/**/
+/**/
+
+
+/**/
+/**/
+
+
+/*MD MEDIA QUERY*/
+/*
+@media (max-width:969px) {
+	
+	.intP{
+		margin-top:0px;
+	}
+	.intro{
+		padding:100px 10px 10px 10px;
+	}
+
+}
+*/
+/*MD MEDIA QUERY*/
+
+@media (max-width:990px) and (min-width:768px) {
+	.edit {
+    font-size: 6em;
+    color: #990000;
+    margin-top: 30px;
+    float: right;
+}
+	.intro{
+		padding-top:50px;
+	}
+	.intP{
+		margin-top:0px;
+	}
+	.intPara{
+		position:relative;
+			top:-70px;
+	}
+	.intButton{
+		font-size:40px;
+		position:relative;
+		top:-275px;
+		left:-300px;
+	}
+		.intButton:hover{
+			color:;
+		}
+	.jumbotron h1{
+		    font-size: 2.75em;
+	}
+}
+
+/*MEDIA QUERY*/
+@media screen and (min-width: 768px){
+	.container .jumbotron, .container-fluid .jumbotron {
+	    padding-right: 5px;
+	    padding-left: 60px;
+	}
+}
+/* XS MEDIA QUERY BELOW*/
+
+/*NAVIGATION*/
+@media (max-width:767px) {
+	
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    border-color: #e7e7e7;
+	    background-color: #990000;
+	    color:#FFF;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	    color: #FFF;
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		color:orange;
+	}
+
+	header {
+	    height: 270px;
+	    background-color: #990000;
+	    opacity: .9;
+	    padding-top: 90px;
+}
+/*
+	h3.logoBack{
+	font-weight:700;
+    font-size:400px;
+    text-align:center;
+    color: rgba(149, 147, 147, .2);
+    position:absolute;
+    z-index:-1;
+    margin-top:0px;
+}
+*/
+
+/*NAVIGATION*/
+
+
+/*SERVICES*/
+	.col-sm-3.col-xs-6.text-center {
+		margin-top:10px;
+    	border-top: 2px solid #990000;
+    	padding-right:15px;
+}
+	.phone{
+		margin-top:18px;
+	}
+	.edit{
+		margin-top: 40px;
+    	margin-right: 30px;
+	}
+
+
+	.jumbotron h1 {
+	    color: #990000;
+	    text-shadow: 1px 1px 2px #000;
+	    font-size: 3.5em;
+	    font-weight: 600;
+	    margin-top: 0px;
+	    margin-bottom: 50px;
+}
+/*SERVICES*/
+}
+
+/*INTRODUCTION*/
+
+
+
+/*INTRODUCTION*/
+
