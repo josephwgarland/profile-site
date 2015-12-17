@@ -102,7 +102,10 @@ nav.navbar.navbar-default {
 }
 
 /*===========NAVIGATION DROPDOWN MENU=================*/
-
+.nav1{
+	margin-left:0px;
+	margin-right:0px;
+}
 
 header{
 	height:350px;
