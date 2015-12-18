@@ -12,7 +12,7 @@ h1, h2, h3, h4{
 }
 .row {
     margin-right: 25px;
-    margin-left: -15px;
+    margin-left: 15px;
 }
 a:hover{
 	color:orange;
@@ -298,6 +298,13 @@ div.jumbotron{
 	span.glyphicon.glyphicon-hdd.gl {
     margin-bottom: 15px;
 }
+
+.mb-gl{
+	width:100%;
+}
+.serviceMain{
+	padding-right:150px;
+}
 /*///////////GLYPHICONS/////////////*/
 
 /*============SERVICE SECTION END====================*/
@@ -392,9 +399,10 @@ div.jumbotron{
 	}
 	.intButton{
 		font-size:40px;
-		position:relative;
-		top:-275px;
-		left:-300px;
+		position: absolute;
+    	top: -10px;
+    	left: -370px;
+    	display: inline
 	}
 		.intButton:hover{
 			color:;
@@ -537,6 +545,10 @@ footer{
 		border-right:1px solid #FFF;
 		font-family:'Orbitron', cursive;
 	}
+	.footTwit{
+		margin-left: 25%;
+    	margin-right: 25%;
+	}
 .contact-info{
 	padding-top:15px;
 	padding-left:40px;
@@ -544,7 +556,9 @@ footer{
 	
 }
 .social{
-	padding:15px;
+	padding-top:15px;
+	padding-left:40px;
+
 }
 footer .fine-print{
 	margin-top:15px;
@@ -554,7 +568,19 @@ footer .fine-print{
 }
 
 @media (max-width:767px) {
+	.contact-info{
+		padding-left:20px;
+	}
+	.footLogo{
+		border-right:none;
+	}
 
+}
+
+@media (max-width:990px) {
+	.contact-info{
+		padding-left:20px;
+	}
 }
 /*END OF FOOTER*/
 
