@@ -242,6 +242,7 @@ h3.logoBack{
 .services{
 	clear:both;
 	display:inline-block;
+	overflow:hidden;
 }
 
 div.jumbotron{
