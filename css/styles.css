@@ -2,6 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron|Quattrocento+Sans);
 
 
+html{
+	margin:0px;
+}
+
 /*============UNIVERSAL=================*/
 h1, h2, h3, h4{
 	font-family:'Orbitron' , cursive;
@@ -120,6 +124,8 @@ header{
 }
 	}
 
+
+
 /*-----------------------------NAVIGATION END--------------------------------*/
 /*CUSTOM NAV*/
 .socialMobile{
@@ -211,6 +217,27 @@ h3.logoBack{
 
 
 /*========================SERVICES SECTION BELOW============================*/
+.logoBack{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.logoBack p{
+	z-index:-10;
+	position:absolute;
+	text-align: center;
+	color:#d9d9d9;
+	font-size:2em;
+	font-family:'Orbitron', cursive;
+	overflow:hidden;
+	display:flex;
+	justify-content:center;
+
+}
+.logoBack{
+
+}
+
 
 .services{
 	clear:both;
@@ -437,10 +464,15 @@ div.jumbotron{
 	}
 
 
+	.services{
+		padding-left:25px;
+	}
+
+
 	.jumbotron h1 {
 	    color: #990000;
 	    text-shadow: 1px 1px 2px #000;
-	    font-size: 3.5em;
+	    font-size: 3em;
 	    font-weight: 600;
 	    margin-top: 0px;
 	    margin-bottom: 50px;
@@ -454,3 +486,76 @@ div.jumbotron{
 
 /*INTRODUCTION*/
 
+/*PROJECTS PAGE*/
+.projSite{
+
+}
+.sites{
+	height:1000px;
+	width:80%;
+	margin:0 auto;
+	margin-top:75px;
+	background-color:#5F0404;
+	padding-left:30%;
+
+}
+.siteLink{
+	height:200px;
+	background-color:transparent;
+}
+.pic{
+	width:500px;
+	margin:0 auto;
+	display:block;
+	margin-top:100px;
+
+}
+.mid1{
+	margin-top:25px;
+}
+.mid2{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+/*PROJECTS PAGE*/
+
+/*FOOTER*/
+footer{
+	background-color:#990000;
+	padding-top: 20px;
+}
+	footer a{
+		color:#FFF;
+	}
+	.footP{
+		color:#FFF;
+		font-shadow:1px 1px 3px #000;
+		font-size:3em;
+	}
+	.footLogo{
+		border-right:1px solid #FFF;
+		font-family:'Orbitron', cursive;
+	}
+.contact-info{
+	padding-top:15px;
+	padding-left:40px;
+	border-right:1px solid #FFF;
+	
+}
+.social{
+	padding:15px;
+}
+footer .fine-print{
+	margin-top:15px;
+	margin-bottom:15px;
+	color:#FFF;
+	font-shadow:1px 1px 1px #000;
+}
+
+@media (max-width:767px) {
+
+}
+/*END OF FOOTER*/
+
+/*FOOTER*/
